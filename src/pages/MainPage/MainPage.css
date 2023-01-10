@@ -1,0 +1,31 @@
+.main-page__content {
+    padding: 42px calc(50% - 500px);
+    display: flex;
+    justify-content: space-between;
+    min-width: 400px;
+    /* border: 1px solid red; */
+}
+
+.main-page__main-section {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    width: 60%;
+    min-width: 380px;
+    display: block;
+    /* border: 1px solid blue; */
+}
+
+.main-page__search-box {
+    margin-bottom: 35px;
+}
+
+.main-page__favorites {
+    width: 35%;   
+    min-width: 250px;
+    display: block;
+}
+
+@media (max-width:650px) {
+    .main-page__content {flex-wrap: wrap;}
+}
